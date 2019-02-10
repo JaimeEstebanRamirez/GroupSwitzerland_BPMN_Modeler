@@ -1,15 +1,5 @@
 <?php
-/**
- * CodexWorld
- *
- * This Pagination class helps to integrate pagination in PHP.
- *
- * @class		Pagination
- * @author		CodexWorld
- * @link		http://www.codexworld.com
- * @license		http://www.codexworld.com/license
- * @version		1.0
- */
+
 class Pagination{
 	protected $baseURL		= '';
 	protected $totalRows  	= '';

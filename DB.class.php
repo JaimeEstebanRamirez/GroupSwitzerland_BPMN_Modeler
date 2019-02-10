@@ -1,11 +1,5 @@
 <?php
-/*
- * DB Class
- * This class is used to connect to database
- * @author    CodexWorld.com
- * @url       http://www.codexworld.com
- * @license   http://www.codexworld.com/license
- */
+
 class DB{
     private $dbHost     = "webappgroupswitzerland-mysqldbserver.mysql.database.azure.com";
     private $dbUsername = "mysqldbuser@webappgroupswitzerland-mysqldbserver";
