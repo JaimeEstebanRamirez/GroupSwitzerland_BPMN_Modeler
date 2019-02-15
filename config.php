@@ -21,6 +21,6 @@ define('SENDER_EMAIL', 'noreply.groupswitzerland@gmail.com');
 define('SMTP', TRUE);
 define('SMTP_HOST', 'smtp.gmail.com');
 define('SMTP_USERNAME', 'noreply.groupswitzerland@gmail.com');
-define('SMTP_PASSWORD', '@Italy2018');
+define('SMTP_PASSWORD', '@Solemio2018');
 define('SMTP_PORT', 587);
 define('SMTP_SECURE', 'tls');
