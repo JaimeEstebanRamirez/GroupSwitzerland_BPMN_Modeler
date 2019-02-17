@@ -6,8 +6,8 @@ class File extends DB{
     
     /*
      * Returns rows from the database based on the conditions
-     * @param string name of the table
-     * @param array select, where, order_by, limit and return_type conditions
+     * tring name of the table
+     * array select, where, order_by, limit and return_type conditions
      */
     public function getRows($conditions = array()){
         $sql = 'SELECT ';
@@ -93,8 +93,8 @@ class File extends DB{
     
     /*
      * Insert data into the database
-     * @param string name of the table
-     * @param array the data for inserting into the table
+     * string name of the table
+     * array the data for inserting into the table
      */
     public function insert($data){
         if(!empty($data) && is_array($data)){
@@ -123,9 +123,9 @@ class File extends DB{
     
     /*
      * Update data into the database
-     * @param string name of the table
-     * @param array the data for updating into the table
-     * @param array where condition on updating data
+     * string name of the table
+     * array the data for updating into the table
+     * array where condition on updating data
      */
     public function update($data, $conditions){
         if(!empty($data) && is_array($data)){
@@ -159,8 +159,8 @@ class File extends DB{
     
     /*
      * Delete data from the database
-     * @param string name of the table
-     * @param array where condition on deleting data
+     * string name of the table
+     * array where condition on deleting data
      */
     public function delete($conditions){
         $whereSql = '';
